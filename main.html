@@ -9,38 +9,92 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<header>
-		<h1 style="text-align: center;">HTML Assignment 3</h1>
-		<table border="1" class="middle" style="width: 100%; height: 30%;">
-			<tr id="table-1">
-				<td id="t11">Left</td>
-				<td id="t12">Middle</td>
-				<td id="t13">Right</td>
-			</tr>
-			<tr id="table-1">
-				<td id="t11">Left</td>
-				<td id="t12">Middle</td>
-				<td id="t13">Right</td>
-			</tr>
-			<tr id="table-1">
-				<td id="t11">Left</td>
-				<td id="t12">Middle</td>
-				<td id="t13">Right</td>
-			</tr>
-		</table>
-	</header>
-     <br>
-	<nav>
-		<table border="1" class="middle" style="width: 100%; height: 30%;">
-           <tr colspan>
-			   <td></td>
-			   <td></td>
-			   <td></td>
-			   <td></td>
-			   <td></td>
-			   <td></td>
-		   </tr>			
-		</table>
-	</nav>
+	<h1>HTML Assignment #3</h1>
+
+  <!-- Table 1 -->
+  <table id="table-1" class="middle">
+    <tr>
+      <td id="t11">Row 1, Col 1</td>
+      <td id="t12">Row 1, Col 2</td>
+      <td id="t13">Row 1, Col 3</td>
+    </tr>
+    <tr>
+      <td class="center">Row 2, Col 1</td>
+      <td class="center">Row 2, Col 2</td>
+      <td class="center right">Row 2, Col 3</td>
+    </tr>
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
+
+  <!-- Table 2 -->
+  <table id="table-2" class="middle">
+    <tr>
+      <td id="t21" colspan="6">Single Cell Spanning 6 Columns</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+      <td>Row 2, Col 3</td>
+      <td>Row 2, Col 4</td>
+      <td>Row 2, Col 5</td>
+      <td>Row 2, Col 6</td>
+    </tr>
+    <tr>
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+      <td>Row 3, Col 4</td>
+      <td>Row 3, Col 5</td>
+      <td>Row 3, Col 6</td>
+    </tr>
+    <tr>
+      <td>Row 4, Col 1</td>
+      <td>Row 4, Col 2</td>
+      <td>Row 4, Col 3</td>
+      <td>Row 4, Col 4</td>
+      <td>Row 4, Col 5</td>
+      <td>Row 4, Col 6</td>
+    </tr>
+    <tr>
+      <td>Row 5, Col 1</td>
+      <td>Row 5, Col 2</td>
+      <td>Row 5, Col 3</td>
+      <td>Row 5, Col 4</td>
+      <td>Row 5, Col 5</td>
+      <td>Row 5, Col 6</td>
+    </tr>
+    <tr>
+      <td>Row 6, Col 1</td>
+      <td>Row 6, Col 2</td>
+      <td>Row 6, Col 3</td>
+      <td>Row 6, Col 4</td>
+      <td>Row 6, Col 5</td>
+      <td>Row 6, Col 6</td>
+    </tr>
+  </table>
+
+  <!-- Table 3 -->
+  <table id="table-3" class="middle">
+    <tr class="green">
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+      <td>Row 1, Col 3</td>
+    </tr>
+    <tr>
+      <td id="t-image" colspan="3">
+        <img src="https://picsum.photos/100" alt="Sample Image">
+      </td>
+    </tr>
+    <tr class="blue">
+      <td>Row 3, Col 1</td>
+      <td>Row 3, Col 2</td>
+      <td>Row 3, Col 3</td>
+    </tr>
+  </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
